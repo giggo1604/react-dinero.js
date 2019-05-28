@@ -1,0 +1,37 @@
+{
+  "name": "react-dinero.js",
+  "version": "0.3.0",
+  "private": false,
+  "description": "Tiny react wrapper for dinero.js",
+  "keywords": [
+    "react",
+    "dinero",
+    "dinero.js"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/giggo1604/react-dinero.js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/giggo1604/react-dinero.js.git"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/dinero.js": "1.4.0",
+    "@types/react": "^16.8.0",
+    "typescript": "^3.4.5",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "dinero.js": "^1.6.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "dinero.js": "^1.6.0"
+  }
+}
